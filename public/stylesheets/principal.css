@@ -115,7 +115,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height:70vh;
+  height: 80vh;
   background-color: #C2928D;
 }
 
@@ -132,34 +132,90 @@ a {
   transition: all 0.3s;
   width: 15%;
 }
+
 /*Meus Serviços*/
-.my-services{
+.my-services {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding: 15px;
+  gap: 70px;
+  padding: 30px;
 }
-.services-cards{
+
+.text-title-myservices {
+  font-size: 100px;
+  align-self: flex-start;
+  padding: 20px;
+}
+
+.services-cards {
   display: flex;
+  justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
-.serv{
+
+.serv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding: 10px;
-  border: 1px solid black;
+  gap: 50px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px black;
+  background-color: #C2928D;
+  transition: all 0.3s;
 }
-.serv>img{
+
+.serv:hover {
+  background-color: #732727;
+  color: white;
+}
+
+.serv>img {
   border-radius: 50%;
   width: 70%;
 }
-.link-agendar{
+
+.link-agendar {
   display: flex;
   background-color: #732727;
   padding: 10px;
+  transition: all 0.3s;
+}
+
+.link-agendar:hover {
+  background-color: #C2928D;
+  color: #732727;
+  font-weight: bold;
+}
+
+/*Avaliação e fotos*/
+.posts-coments {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+.txt-posts {
+  font-size: 100px;
+  align-self: flex-start;
+  padding: 20px;
+}
+
+.fotos-avaliação {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-avaliação-foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
 }
