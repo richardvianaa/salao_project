@@ -33,8 +33,9 @@ a {
   align-items: center;
   justify-content: space-around;
   background-color: #732727;
-  box-shadow: 1px 2px 10px rgb(82, 64, 64);
+  box-shadow: 1px 2px 10px #d80097;
   padding: 15px;
+  position: absolute;
 }
 
 .logo-content {
@@ -144,7 +145,7 @@ a {
 }
 
 .text-title-myservices {
-  font-size: 100px;
+  font-size: 60px;
   align-self: flex-start;
   padding: 20px;
 }
@@ -200,7 +201,7 @@ a {
 }
 
 .txt-posts {
-  font-size: 100px;
+  font-size: 60px;
   align-self: flex-start;
   padding: 20px;
 }
@@ -218,4 +219,57 @@ a {
   flex-direction: column;
   justify-content: center;
   gap: 15px;
+}
+
+/* Inicio comentários*/
+.container-coments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #C2928D;
+}
+
+.title-coments{
+  display: flex;
+  width: 100%;
+}
+.title-coments>h1{
+  font-size: 60px;
+  align-self: flex-start;
+  padding: 20px;
+}
+
+.content-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card-coments {
+
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px black;
+  font-weight: 800;
+  font-size: 17px;
+  background-color: wheat;
+}
+
+.card-coments>h2 {
+  font-size: 14pt;
+}
+/*Footer*/
+.footer-container{
+  background-color: #732727;
+  color: white;
+  box-shadow: 1px 1px 10px #d80097;
 }
